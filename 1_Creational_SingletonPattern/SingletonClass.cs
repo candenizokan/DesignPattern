@@ -33,7 +33,7 @@ namespace _1_Creational_SingletonPattern
             return _tekNesne;
         }
 
-        public static int Topla(int sayi1, int sayi2) => sayi1 + sayi2;
+        public int Topla(int sayi1, int sayi2) => sayi1 + sayi2;
 
     }
 }

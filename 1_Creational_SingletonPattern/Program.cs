@@ -21,6 +21,8 @@ namespace _1_Creational_SingletonPattern
              
              */
             //SingletonClass singletonClass = new SingletonClass(); private ctor olduğu için kızıyor 
+
+            SingletonClass.Metodum().
         }
     }
 }
