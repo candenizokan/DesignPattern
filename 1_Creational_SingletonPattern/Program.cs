@@ -22,7 +22,13 @@ namespace _1_Creational_SingletonPattern
              */
             //SingletonClass singletonClass = new SingletonClass(); private ctor olduğu için kızıyor 
 
-            SingletonClass.Metodum().
+            //statik işaretli oldukları için ulaşabiliyorum SingletonClass'a
+            int sonuc = SingletonClass.Nesnem.Topla(4, 5);
+            int sonuc1 = SingletonClass.Metodum().Topla(4, 5);
+
+            Console.WriteLine("sonuc = >" + sonuc + "*****" + sonuc1);
+
+            Console.ReadLine();
         }
     }
 }
