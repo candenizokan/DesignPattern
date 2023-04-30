@@ -43,6 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AndroidApplication.cs" />
     <Compile Include="IPhoneApplication.cs" />
     <Compile Include="MobileApplication.cs" />
     <Compile Include="Program.cs" />
