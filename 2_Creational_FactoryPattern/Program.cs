@@ -32,6 +32,27 @@ namespace _2_Creational_FactoryPattern
             * Uygulamanın ihtiyacı olan nesnelerin arayüzü
             * nesneler.
              */
+
+
+            //AndroidApplication app = new AndroidApplication();
+
+            MobileApplication ma = new AndroidApplication();
+            MobileApplication ma1 = new IPhoneApplication();
+            MobileApplication ma2 = new WindowsApplication();
+
+
+
+
+            //tek nesne üzerinden fabrikadan bunları çıkarabiliyorum
+            Factory factory = new Factory();
+
+            MobileApplication app = factory.FactoryMethod(AllMobile.Android);
+            MobileApplication app2 = factory.FactoryMethod(AllMobile.IPhone);
+            MobileApplication app3 = factory.FactoryMethod(AllMobile.Windows);
+
+            app.Platform();//androidin platform metodu
+            app2.Platform();//IPhone platform metodu. app2. dediğim zaman iphone içinde başka metodlarda olsa onlarada erişirdim.
+
         }
     }
 }
