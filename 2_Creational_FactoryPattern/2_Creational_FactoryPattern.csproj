@@ -44,6 +44,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AndroidApplication.cs" />
+    <Compile Include="Factory.cs" />
     <Compile Include="IPhoneApplication.cs" />
     <Compile Include="MobileApplication.cs" />
     <Compile Include="Program.cs" />
