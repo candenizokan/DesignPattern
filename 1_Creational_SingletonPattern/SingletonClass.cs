@@ -8,7 +8,11 @@ namespace _1_Creational_SingletonPattern
 {
     public class SingletonClass
     {
-        public SingletonClass()
+        //public SingletonClass()
+        //{
+
+        //}
+        private SingletonClass()
         {
 
         }
