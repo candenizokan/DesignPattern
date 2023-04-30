@@ -20,5 +20,8 @@ namespace _1_Creational_SingletonPattern
         {
 
         }
+
+        // ctor çalıştırılıp nesney, aldık lakin hala dışarıdan erişilemez bir nesne!
+        private static SingletonClass _tekNesne=new SingletonClass();//ne stackte ne heapte static ramde ayrı bir alanda
     }
 }
