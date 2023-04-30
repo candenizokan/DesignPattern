@@ -12,6 +12,10 @@ namespace _1_Creational_SingletonPattern
         //{
 
         //}
+
+        //private constructor yalnızca kendi içinde hizmet eder dışarıdan nesne talebi karşılamaz '
+        //sınıf ve metod access modifierlarında dikkat.
+        //private ctor olduğu için dışarıdan iş yaptıramam
         private SingletonClass()
         {
 
