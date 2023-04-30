@@ -7,7 +7,7 @@
 1-) Cretional Desingn Pattern(Yaratılacak Desenler) => nesnelerin doğrudan new operatörü ile oluşturulmayıp, nesne oluşturma mantığını gizleyerek nesne oluşumuna alternatif yollar sunarlar.
 
 ** Factory Design Pattern
-** Singleton Design Pattern
+** Singleton Design Pattern:nesneyi bir kere oluşturup çok kere kullanma. herşeyi kapat off yap veya db bağlantısı köprü açık kalsın. tek seferlik işler. bir kere nesneyi alayım hep o işi yaptırayım gibi.
 * Abstract Factory Design Pattern
 * Builder Design Pattern
 * ProtoType Design Pattern
