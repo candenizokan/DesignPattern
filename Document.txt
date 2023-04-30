@@ -1,0 +1,25 @@
+﻿DESING PATTERN - TASARIM DESENLERİ
+
+* Tasarım deseni / şablonu / kalıbı/ örüntüsü olarakda karşımıza çıkabilir. Uygulama geliştirirken karşılaşılan problemlerin çözümüne ilişkin adımlar için oluşturulan temelde 3 ana başlık altında incelenen ve yaklaşık 40 civarı olan çözüm yollarıdır aslında.
+
+* Desing Patternler 3 temel grupta toplanır.
+
+1-) Cretional Desingn Pattern(Yaratılacak Desenler) => nesnelerin doğrudan new operatörü ile oluşturulmayıp, nesne oluşturma mantığını gizleyerek nesne oluşumuna alternatif yollar sunarlar.
+
+** Factory Design Pattern
+** Singleton Design Pattern
+* Abstract Factory Design Pattern
+* Builder Design Pattern
+* ProtoType Design Pattern
+
+2-) Strucural Design Pattern (Yapısal Desenler)=> Nesneler arasındaki ilişkiyi düzenlemeye ilişkin çözümler sunar.
+
+** Adapter Design Pattern
+** Proxy Design Pattern
+** Decorator Design Pattern
+
+3-> Behavioral Design Pattern(Davranışsal Desenler) => Çalışma zamanında nesneler arasındaki davranışlara ait çözümler sunar.
+
+** Observer Design Pattern
+** Meditor Design Pattern
+** ChainOfresponsibility Design Pattern
