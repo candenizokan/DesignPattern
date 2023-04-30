@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 
 namespace _2_Creational_FactoryPattern
 {
-    internal class MobileApplication
+    //oluşturacağım nesnelerin kullancağı / kalıtımsal olarak kullandığı arayüz
+    public abstract class MobileApplication
     {
+        public abstract void Platform();
     }
 }
