@@ -20,6 +20,7 @@ namespace _1_Creational_SingletonPattern
             Singleton ile üretilen nesnenin kendine has bir yaşam döngüsü vardır bu yüzden her önümüze gelen nesneyi bu şekilde oluşturamayız. Singleton nesneler statik sınıflar gibi RAM üzerinde yaşam alanlarında biricikklerdir. Dikkatli kullanmak gerekir
              
              */
+            //SingletonClass singletonClass = new SingletonClass(); private ctor olduğu için kızıyor 
         }
     }
 }
