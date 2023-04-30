@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace _2_Creational_FactoryPattern
 {
-    internal enum AllMobile
+    public enum AllMobile
     {
         Android,
         IPhone,
