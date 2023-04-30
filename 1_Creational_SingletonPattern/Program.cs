@@ -28,6 +28,12 @@ namespace _1_Creational_SingletonPattern
 
             Console.WriteLine("sonuc = >" + sonuc + "*****" + sonuc1);
 
+
+            int cevap = SingletonClass2.Ozellik.Hesapla(4, 5);
+            int cevap1 = SingletonClass2.Yetenek().Hesapla(4, 5);
+
+            Console.WriteLine("sonuc = >" + cevap + "*****" + cevap1);
+
             Console.ReadLine();
         }
     }
