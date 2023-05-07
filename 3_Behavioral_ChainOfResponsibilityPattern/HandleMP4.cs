@@ -10,7 +10,17 @@ namespace _3_Behavioral_ChainOfResponsibilityPattern
     {
         public override void Play(string fileType)
         {
-            throw new NotImplementedException();
+            if (fileType.EndsWith(".Mp4"))//EndsWith ilgili string ifadede sonu mp4 le bitiyor mu true yada false gelecek
+            {
+                Console.WriteLine("mp4 dosyası okunuyor..");
+            }
+            else
+            {
+                if (_nextPlayer != null)
+                {
+                    _nextPlayer.Play(fileType);//benden sonraki player _nextPlayer boş değilse benden sonraki halkaya aktar
+                }
+            }
         }
     }
 }
