@@ -10,7 +10,14 @@ namespace _3_Behavioral_ChainOfResponsibilityPattern
     {
         public override void Play(string fileType)
         {
-            throw new NotImplementedException();
+            if (fileType.EndsWith(".Avi"))//EndsWith ilgili string ifadede sonu AVI le bitiyor mu true yada false gelecek
+            {
+                Console.WriteLine("Avi dosyası okunuyor..");
+            }
+            else
+            {
+                Console.WriteLine("Benim için geçersiz dosya formatı...");
+            }
         }
     }
 }

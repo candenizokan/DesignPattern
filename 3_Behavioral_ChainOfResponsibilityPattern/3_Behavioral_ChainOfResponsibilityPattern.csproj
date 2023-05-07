@@ -44,6 +44,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="HandleMP4.cs" />
+    <Compile Include="HandlerAVI.cs" />
     <Compile Include="HandlerMP3.cs" />
     <Compile Include="PlayerHandler.cs" />
     <Compile Include="Program.cs" />
