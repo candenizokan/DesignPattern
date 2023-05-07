@@ -24,6 +24,24 @@ namespace _3_Behavioral_ChainOfResponsibilityPattern
             * ASP.NET pipeline(akış şeması) bu desen mantığında çalışır.
              
              */
+
+            //zincir halkalarını oluşturalım
+            PlayerHandler aviPlayer = new HandlerAVI();
+            PlayerHandler mp3Player = new HandlerMP3();
+            PlayerHandler mp4Player = new HandleMP4();
+
+            //halkaları bağlayalım
+            mp3Player.NextPlayer = mp4Player;
+            mp4Player.NextPlayer = aviPlayer;
+
+            //istekte bulunalım
+
+            mp3Player.Play("deneme.Avi");
+            mp3Player.Play("deneme.Mp3");
+            mp3Player.Play("deneme.aa");
+
+            Console.ReadLine();
+
         }
     }
 }
