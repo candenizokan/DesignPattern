@@ -10,12 +10,12 @@ namespace _4_Structural_AdapterPattern
     internal class Adapter:Uyarlanacak,IHedef
     {
         public IHedef Eleman { get; set; }// setter  inject
-        private readonly IHedef _eleman;//ctor injection
+        //private readonly IHedef _eleman;//ctor injection
 
-        public Adapter(IHedef hedef)
-        {
-            _eleman = hedef;
-        }
+        //public Adapter(IHedef hedef)
+        //{
+        //    _eleman = hedef;
+        //}
 
         public string Request(int i)
         {
