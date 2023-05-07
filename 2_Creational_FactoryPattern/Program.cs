@@ -53,6 +53,14 @@ namespace _2_Creational_FactoryPattern
             app.Platform();//androidin platform metodu
             app2.Platform();//IPhone platform metodu. app2. dediğim zaman iphone içinde başka metodlarda olsa onlarada erişirdim.
 
+
+
+            int i = 10; 
+            i *= i++ + --i * (i++ - ++i);
+            Console.Write(i);
+
+            Console.ReadLine();
+
         }
     }
 }
