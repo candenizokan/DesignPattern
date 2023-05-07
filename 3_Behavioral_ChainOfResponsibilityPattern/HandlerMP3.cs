@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace _3_Behavioral_ChainOfResponsibilityPattern
 {
-    internal class HandlerMP3
+    internal class HandlerMP3 : PlayerHandler
     {
+        public override void Play(string fileType)
+        {
+            throw new NotImplementedException();
+        }
     }
 }
